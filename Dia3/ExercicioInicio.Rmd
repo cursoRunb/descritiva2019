@@ -1,0 +1,37 @@
+---
+title: "Exercício de Aula"
+author: "Estatística Descritiva"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Primeira questão:
+
+Faça a importação do conjunto de dados sobre óbitos no endereço:
+
+https://github.com/gustavopompeu/ENAP/blob/master/obitos.csv
+
+* Calcule a média anual de óbitos na região Norte durante o período estudado
+
+* Calcule a média nacional de óbitos em 2017
+
+* Calcule a média anual de óbitos entre os anos de 2000 e 2010 considerando apenas as informações das regiões norte e nordeste.
+
+# Segunda questão:
+
+Faça a importação dos dados de exportação disponíveis em:
+
+https://raw.githubusercontent.com/gustavopompeu/ENAP/master/EXP_2019.txt
+
+* Qual foi o mês com menor número de registros?
+
+* Qual foi a UF com maior número de registros?
+
+* Apresente uma tabela relacionando a UF com o país
+
+* Qual a média de KG_Liquido para o estado de SP? (Dica: rode o codigo a seguir e veja o resultado de usar dois sinais de igualdade 2==(3-1))
+
+* Apresente tabela de dupla entrada relacionando todos os pares de variáveis categóricas
