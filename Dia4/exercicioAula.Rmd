@@ -1,0 +1,22 @@
+---
+title: "Exercício de Aula"
+author: "Estatística Descritiva"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Considerando os dados de Autorização de Exploração Florestal, faça a importação do conjunto de dados e apresente gráficos para análise descritiva dos dados observados, inserindo legendas e os demais elementos estéticos vistos em aula.
+
+https://raw.githubusercontent.com/gustavopompeu/ENAP/master/2007.csv
+
+```{r,echo=FALSE}
+teste <- read.csv2("https://raw.githubusercontent.com/gustavopompeu/ENAP/master/2007.csv")
+```
+
+* Apresente em um gráfico os principais produtos registrados para o município de Rio Branco.
+
+* Relacione o volume original autorizado com o volume remanescente. Identifique em qual município foi registrado o maior volume original autorizado.
+
